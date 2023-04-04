@@ -1,0 +1,119 @@
+body {
+  background-color: #000;
+}
+
+#console {
+  display: none;
+  width: 50%;
+  margin: auto;
+}
+
+p {
+  color: white;
+}
+
+#message_help {
+  display: none;
+}
+
+pre {
+  color: white;
+}
+
+.textBox {
+  margin: auto;
+  display: block;
+}
+
+.output {
+  display: none;
+  width: 50%;
+  margin: auto;
+}
+
+/*Begin Combat */
+
+.rat{
+  display: flex;
+  justify-content: center;
+}
+
+.combat {
+  position: relative;
+  border: 1px solid white;
+  width: 50%;
+  height: 300px;
+  background: black;
+  margin: auto;
+  margin-top: 50px;
+  overflow: auto;
+}
+
+.combatOutput{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.combatMenu {
+  border: 1px solid white;
+  width: 50%;
+  height: 100px;
+  background: black;
+  margin: auto;
+  margin-top: 50px;
+}
+
+#playerHealth {
+  background: #932424;
+  width: 10px;
+  height: 200px;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+#enemyHealth {
+  background: #932424;
+  width: 10px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#enemyMana {
+  background: #248092;
+  width: 10px;
+  height: 200px;
+  position: absolute;
+  right: 395px;
+  top: 50px;
+}
+
+/* Combat buttons */
+.combatButton{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 100px;
+  height:50px;
+  background: gray;
+  border: none;
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+#useWeapon{
+  background: #932424;
+  margin-left: 5px;
+}
+
+#useHealthPot {
+  background: #932424;
+}
+
+#run {
+  float: right;
+  margin-right: 5px;
+  display: none;
+}
